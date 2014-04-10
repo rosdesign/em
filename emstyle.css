@@ -1,0 +1,75 @@
+body {
+	background-color: #E4E5E6;
+	margin: 0;
+	padding: 0;
+}
+img {
+
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+div {
+	margin: 0;
+	padding:0;
+
+}
+
+.top {
+	line-height:10%;
+}
+
+.container {
+	width: 100%;
+	max-width: 980px;
+	margin:0 auto;
+}
+
+.main_img {
+	width: 97%;
+	margin: 5px auto;
+
+}
+
+.mid {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.btn {
+	position: relative;
+	float: left;
+	width: 49%;
+	margin-right : 3%;
+	margin-top: 1px;
+	margin-bottom : 4px;
+}
+
+.shop {
+	position: relative;
+	float: left;
+	width: 47.5%;
+	margin-top: 1px;
+}
+
+.homepage {
+	
+}
+
+.call {
+	margin-top: 3px;
+
+}
+
+.text {
+	width: 96%;
+	margin: 0 auto;
+
+}
+
+.ka {
+	width: 96%;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+	<title> 온시야에 오신 여러분들을 환영합니다. </title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript" src="kakao.link.js"></script>
+	<script type="text/javascript">
+	//카톡링크n
+	function executeURLLink()
+	{
+		kakao.link("talk").send({
+			msg : "온시야에서만 만날 수 있는 정직한 EM입니다.",
+			url : "http://seoulem.godo.co.kr/shop/goods/goods_view.php?&goodsno=1&category=001",
+			appid : "m.kakao.com",
+			appver : "2.0",
+			appname : "온시야 맑은EM",
+			type : "link"
+		});
+
+	}
+	</script>
+
+	</head>
+<body onload="setTimeout(function(){window.scrollTo(0,1)},100);">
+<div class="container">
+	<div class="top">
+    	<img src="image/dif/top_4.png">
+    </div>
+
+	<div class="mid">
+	 	<div class="row">
+		     <div class="homepage">
+		        <a href="http://seoulem.com" target="_blank"> <img src="image/common/homepage.png"> </a>
+		    </div>
+		    <div class="call">
+		        <a href="tel:010-2279-7746" target=_blank _foo="con_link"><img src="image/common/phone.png"></a>
+		    </div>
+		</div>
+
+		 <div class="link">
+		    <a href="http://seoulem.godo.co.kr/shop/main/index.php" target="_blank"> <img src="image/common/go.png"> </a>
+		 </div>
+	</div>
+
+	<div class="body">
+		<img src="image/dif/good_4.png">  
+	</div>
+
+    <div class="kakao">
+    	<img id="sn" onclick="javascript:executeURLLink()" src="image/common/kakao.png">
+    </div>
+  
+</div>
+</body>
+</html>
