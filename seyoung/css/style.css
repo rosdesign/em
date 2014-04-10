@@ -1,0 +1,62 @@
+img {
+  width: 100%;
+}
+body {
+	background-color: #e3e4e4 ;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.row {
+	margin: 10px 10px;
+}
+
+.top {
+	position: relative;
+	line-height: 10%
+}
+
+.main {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.mid {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	position: relative;
+	float: left;
+	width: 47%;
+	margin-right : 2.5%;
+	margin-top: 1px;
+	margin-bottom : 4px;
+}
+
+
+.link {
+	position: relative;
+	float: left;
+	width: 45%;
+	margin-top: 1px;
+}
+
+
+
+.body {
+	width: 97%;
+	margin:0 auto;
+}
+
+.kakao {
+	width: 97%;
+	margin: 0 auto;
+}
